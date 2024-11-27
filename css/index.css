@@ -1,0 +1,893 @@
+/* Banner Start */
+
+.banner {
+    /* background-color: yellowgreen; */
+    background-image: url(../images/index/home-banner.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.banner .wrapper {
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    /* background-color: rebeccapurple; */
+}
+
+
+.banner .wrapper h1 {
+    font-size: 75px;
+    color: #003657;
+}
+
+/* .banner .wrapper button {
+    border-radius: 50px;
+    background-color: #0084D6;
+    border: none;
+    padding: 10px 20px;
+} */
+
+/* .banner .wrapper button a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+} */
+
+/* Banner End */
+
+
+
+/* Service Section Start*/
+
+.service {
+    background-image: url(../images/index/home-bg1.jpg);
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: auto;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.service .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.service .wrapper h1:not(.service .wrapper .container h1) {
+    color: white;
+    font-size: 50px;
+}
+
+.service .wrapper .container {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.793);
+    text-align: center;
+}
+
+.service .wrapper .container h1 {
+    font-size: 40px;
+    color: #0084D6;
+    padding-top: 20px;
+}
+
+.service .wrapper .container p {
+    font-size: 20px;
+    color: white;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+}
+
+/* Service Section End */
+
+
+
+
+
+
+
+/* Works Start */
+
+.work {
+    background-image: url(../images/index/home-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    /* background-color: lavenderblush; */
+}
+
+.work .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 50px;
+    /* padding:30px 100px; */
+}
+
+.work .wrapper h1:not(.work .wrapper .work-step-container .step h1) {
+    /* background-color: aqua; */
+    font-size: 50px;
+    height: auto;
+    color: #2d2d2d;
+}
+
+.work .wrapper .wrapper-h1 {
+    color: #0084D6;
+}
+
+.work .wrapper .work-step-container {
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.work .wrapper .work-step-container .step {
+    height: 100%;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.work .wrapper .work-step-container .step img {
+    width: 100%;
+}
+
+.work .wrapper .work-step-container .step h1 {
+    text-align: center;
+    font-size: var(--fs24);
+    /* padding: 0px 50px; */
+    color: #2d2d2d;
+}
+
+.work .wrapper .work-step-container .step p {
+    text-align: center;
+    /* padding: 0px 50px; */
+    color: #2d2d2d;
+}
+
+/* .work .wrapper button {
+    border-radius: 50px;
+    background-color: #0084D6;
+    border: none;
+    padding: 15px 20px;
+} */
+
+/* .work .wrapper button a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+} */
+
+/* Works Ends */
+
+
+
+
+
+
+/* Virtual Start */
+
+.vir-fit {
+    background-image: url(../images/index/home-vir-fit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.vir-fit .wrapper {
+    /* background-color: lightblue; */
+    height: auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 30px 100px;
+}
+
+.vir-fit .wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.vir-fit .wrapper h1 .vf {
+    background: linear-gradient(to right, #1A00FF, #9900FF, #FF00EE);
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.vir-fit .wrapper .image {
+    width: 80%;
+}
+
+.vir-fit .wrapper img {
+    width: 100%;
+}
+
+.vir-fit .wrapper p {
+    color: #2d2d2d;
+}
+
+/* Virtual End */
+
+
+
+/* Table Secction Start */
+
+.tabel {
+    height: 1400px;
+    /* background-color: lightcyan; */
+}
+
+.tabel .wrapper {
+    height: 100%;
+}
+
+.tabel .wrapper .pros-cons {
+    height: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabel .wrapper .pros-cons h1 {
+    font-size: 50px;
+    color: #0084D6;
+    text-align: center;
+}
+
+.tabel .wrapper .pros-cons img {
+    height: 70%;
+}
+
+.tabel .wrapper .fitting {
+    height: 50%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabel .wrapper .fitting .image {
+    height: 70%;
+}
+
+.tabel .wrapper .fitting .image img {
+    height: 100%;
+}
+
+/* .tabel .wrapper .fitting button{
+    border-radius: 50px;
+    background-color: #0084D6;
+    border: none;
+    padding: 15px 20px;
+} */
+
+/* .tabel .wrapper .fitting button a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+} */
+
+/* Table Secction End */
+
+
+
+
+/* Testimonial Start */
+
+.testimonial {
+    height: 600px;
+    width: 100%;
+    /* background-color: #147979; */
+    padding: 30px 0px;
+}
+
+.testimonial .wrapper {
+    height: 100%;
+    /* padding: 30px 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial .wrapper h1:not(.testimonial .wrapper .feedback-container .feedback h1) {
+    /* background-color: lightgrey; */
+    /* height: 20%; */
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #003657;
+}
+.testimonial .wrapper .feedback-container {
+    height: 86%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.testimonial .wrapper .feedback-container .feedback {
+    height: 100%;
+    width: 30%;
+    /* background-color: lightpink; */
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #B5CFFF;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .wrapper .feedback-container .feedback p {
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* color: #2d2d2d; */
+    width: 80%;
+}
+
+.testimonial .wrapper .feedback-container .feedback h1 {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    background-color: #B5CFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #2d2d2d;
+}
+
+/* Testimonial End */
+
+
+
+
+@media only screen and (max-width:1525px) {
+
+    .banner .wrapper {
+        /* background-color: #fff; */
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width:1350px) {
+
+
+    .banner {
+        height: 745px;
+        /* background-position: right -175px top 0px;
+        background-repeat: no-repeat; */
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .banner {
+        height: 500px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: var(--fs50);
+    }
+}
+
+@media only screen and (max-width:1220px) {
+
+    .banner .wrapper h1 {
+        font-size: var(--fs60);
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+    .vir-fit {
+        height: auto;
+    }
+
+    .tabel .wrapper .pros-cons img {
+        height: auto;
+        width: 100%;
+    }
+
+    .testimonial .wrapper h1:not(.testimonial .wrapper .feedback-container .feedback h1) {
+        font-size: var(--fs30);
+    }
+
+    .testimonial .wrapper .feedback-container {
+        align-items: start;
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        font-size: var(--fs16);
+        /* padding: 10px 20px; */
+    }
+
+    .testimonial .wrapper .feedback-container .feedback h1 {
+        font-size: var(--fs18);
+        /* padding: 10px 20px; */
+    }
+}
+
+@media only screen and (max-width:1110px) {
+    .service .wrapper .container h1 {
+        font-size: 36px;
+    }
+
+    .service .wrapper .container p {
+        font-size: 16px;
+    }
+
+    .testimonial .wrapper .feedback-container {
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+
+    /* Banner Section Media Query Start */
+    .banner {
+        height: 500px;
+        background-position: left 0px top 0px;
+        /* background-position: left -175px top 0px; */
+        /* background-size: coconver; */
+    }
+
+    .banner .wrapper h1 {
+        width: 70%;
+        font-size: var(--fs40);
+    }
+
+    /* Banner Section Media Query End*/
+
+
+    /* Service Section Media Query Start*/
+
+    .service {
+        padding: 50px 0px;
+    }
+
+    .service .wrapper {
+        gap: 25px;
+    }
+
+    .service .wrapper h1:not(.service .wrapper .container h1) {
+        font-size: var(--fs40);
+    }
+
+    .service .wrapper .container h1 {
+        font-size: var(--fs30);
+    }
+
+    .service .wrapper .container p {
+        font-size: var(--fs16);
+    }
+
+    /* Service Section Media Query End*/
+
+
+    /* Work Section Media Query Start*/
+    .work {
+        height: auto;
+    }
+
+    .work .wrapper {
+        gap: 50px;
+
+    }
+
+    .work .wrapper h1:not(.work .wrapper .work-step-container .step h1) {
+        font-size: var(--fs40);
+    }
+
+    .work .wrapper .work-step-container .step h1 {
+        font-size: var(--fs20);
+    }
+
+    .work .wrapper .work-step-container .step p {
+        font-size: var(--fs12);
+    }
+
+    /* Work Section Media Query End*/
+
+    /* Virtual Section Media Query Start*/
+
+    .vir-fit {
+        height: auto;
+        background-position: center right;
+
+    }
+
+    .vir-fit .wrapper {
+        gap: 50px;
+    }
+
+    .vir-fit .wrapper h1 {
+        font-size: var(--fs28);
+    }
+
+    /* Virtual Section Media Query End*/
+
+
+    /* Tabel Section Media Query Start*/
+
+    .tabel .wrapper .pros-cons h1 {
+        font-size: var(--fs40);
+    }
+
+    /* .tabel .wrapper .pros-cons img{
+        height: auto;
+        width: 100%;    
+    } */
+
+
+    /* Tabel Section Media Query End*/
+
+
+    /* Testimonial Section Media Query Start*/
+
+
+
+    /* .testimonial .wrapper {
+        height: auto;
+    } */
+
+    .testimonial .wrapper h1:not(.testimonial .wrapper .feedback-container .feedback h1) {
+        font-size: var(--fs30);
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        font-size: var(--fs16);
+        /* padding: 10px 20px; */
+    }
+
+    .testimonial .wrapper .feedback-container .feedback h1 {
+        font-size: var(--fs18);
+        /* padding: 10px 20px; */
+    }
+
+    /* Testimonial Section Media Query End*/
+}
+
+
+@media only screen and (max-width:930px) {
+    .banner .wrapper h1 {
+        font-size: var(--fs30);
+    }
+
+    .tabel {
+        height: auto;
+    }
+    
+    .tabel .wrapper {
+        height: 100%;
+    }
+    
+    .tabel .wrapper .pros-cons {
+        height: 50%;
+        gap: 50px;
+        padding-top: 30px;
+    }
+
+
+    .tabel .wrapper .fitting {
+        height: 50%;
+    }
+    
+    .tabel .wrapper .fitting .image {
+        height: 100%;
+    }
+    
+    .tabel .wrapper .fitting .image img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .tabel .wrapper .pros-cons h1 {
+        font-size: var(--fs30);
+    }
+
+}
+
+@media only screen and (max-width:860px) {
+    .testimonial .wrapper {
+        padding: 0px 75px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .banner {
+        height: 438px;
+    }
+
+    .service .wrapper h1:not(.service .wrapper .container h1) {
+        font-size: var(--fs30);
+    }
+
+    .service .wrapper .container h1 {
+        font-size: var(--fs24);
+    }
+
+    .service .wrapper .container p {
+        font-size: var(--fs14);
+    }
+
+    .work .wrapper {
+        gap: 30px;
+    }
+
+    .work .wrapper h1:not(.work .wrapper .work-step-container .step h1) {
+        font-size: var(--fs30);
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .testimonial {
+        height: auto;
+    }
+    .testimonial .wrapper {
+        height: auto;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .testimonial .wrapper .feedback-container .feedback {
+        width: 100%;
+    }
+
+    .testimonial .wrapper .feedback-container {
+        flex-direction: column;
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        font-size: var(--fs14);
+    }
+
+    .testimonial .wrapper .feedback-container .feedback h1 {
+        font-size: var(--fs14);
+    }
+}
+
+@media only screen and (max-width:800px){
+    .testimonial .wrapper .feedback-container .feedback p{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .banner {
+        height: 350px;
+    }
+
+    .vir-fit .wrapper {
+        padding: 30px 50px;
+    }
+
+    .tabel {
+        height: auto;
+    }
+
+    .tabel .wrapper {
+        height: 100%;
+    }
+
+    .tabel .wrapper .pros-cons {
+        height: 50%;
+        gap: 50px;
+        padding-top: 30px;
+    }
+
+    .tabel .wrapper .pros-cons h1 {
+        font-size: var(--fs30);
+    }
+
+    .tabel .wrapper .fitting {
+        height: 50%;
+    }
+
+    .tabel .wrapper .fitting .image {
+        height: 100%;
+    }
+
+    .tabel .wrapper .fitting .image img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .banner {
+        height: 300px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: var(--fs26);
+    }
+
+    .service {
+        padding: 20px 0px;
+    }
+
+    .service .wrapper h1:not(.service .wrapper .container h1) {
+        font-size: var(--fs26);
+    }
+
+    .service .wrapper .container h1 {
+        font-size: var(--fs22);
+    }
+
+    .service .wrapper .container p {
+        font-size: var(--fs12);
+    }
+
+    .work .wrapper h1:not(.work .wrapper .work-step-container .step h1) {
+        font-size: var(--fs26);
+    }
+
+    .work .wrapper .work-step-container .step h1 {
+        font-size: var(--fs16);
+    }
+
+    .tabel .wrapper .pros-cons h1 {
+        font-size: var(--fs26);
+    }
+
+    .testimonial .wrapper {
+        padding: 0px 20px;
+    }
+
+    .testimonial .wrapper h1:not(.testimonial .wrapper .feedback-container .feedback h1) {
+        font-size: var(--fs26);
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        height: 80%;
+        font-size: var(--fs12);
+    }
+
+    .testimonial .wrapper .feedback-container .feedback h1 {
+        height: 20%;
+        font-size: var(--fs12);
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .vir-fit .wrapper h1 {
+        font-size: var(--fs20);
+    }
+
+    .vir-fit .wrapper {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:513px) {
+    .banner {
+        height: 250px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: var(--fs20);
+        width: 90%;
+    }
+
+    nav .wrapper .icon {
+        gap: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:425px) {
+    .banner {
+        height: 200px;
+    }
+
+    .banner .wrapper {
+        gap: 5px;
+    }
+
+    .service .wrapper h1:not(.service .wrapper .container h1) {
+        font-size: var(--fs20);
+    }
+
+    .service .wrapper .container h1 {
+        font-size: var(--fs18);
+    }
+
+    .work .wrapper h1:not(.work .wrapper .work-step-container .step h1) {
+        font-size: var(--fs20);
+    }
+
+    .work .wrapper .work-step-container .step h1 {
+        font-size: var(--fs14);
+    }
+
+    .work .wrapper .work-step-container .step p {
+        font-size: var(--fs10);
+    }
+
+    .vir-fit .wrapper {
+        width: auto;
+    }
+
+    .tabel .wrapper .pros-cons {
+        gap: 20px;
+    }
+
+    .tabel .wrapper .pros-cons h1 {
+        font-size: var(--fs20);
+    }
+
+
+
+    .testimonial .wrapper h1:not(.testimonial .wrapper .feedback-container .feedback h1) {
+        font-size: var(--fs20);
+    }
+
+}
+
+@media only screen and (max-width:360px){
+    .banner {
+        height: 180px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: var(--fs16);
+    }
+
+    .testimonial .wrapper .feedback-container .feedback p {
+        height: 85%;
+    }
+
+    .testimonial .wrapper .feedback-container .feedback h1 {
+        height: 15%;
+    }
+}
+

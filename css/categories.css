@@ -1,0 +1,695 @@
+/* Banner Section */
+
+.banner {
+    height: 700px;
+    width: 100%;
+    background-color: #9F2624;
+    background-image: url(../images/categories/categories-banner1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.banner .wrapper {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    gap: 20px;
+}
+
+.banner .wrapper h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+/* Shop-by-categories */
+
+.shop-by-categories {
+    height: 600px;
+    width: 100%;
+}
+
+.shop-by-categories .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: s; */
+    /* background-color: lightpink; */
+    /* gap: 5%; */
+}
+
+.shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1, .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1) {
+    height: 10%;
+    /* background-color: yellow;  */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-by-categories .wrapper .categories-container {
+    height: 90%;
+    /* background-color: lightcoral;  */
+}
+
+.shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1) {
+    height: 10%;
+    text-align: right;
+    font-size: 18px;
+    color: #0084D6;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container {
+    height: 90%;
+    /* background-color: lightgreen;    */
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+    height: 100%;
+    width: 30%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .image{
+    width: 100%;
+    height: 70%;
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+/* UNIFORMS Categories */
+
+.uniform-categories {
+    height: 600px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.uniform-categories .wrapper {
+    height: 100%;
+    margin-top: 30px;
+}
+
+.uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1) {
+    height: 10%;
+    /* background-color: yellow; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uniform-categories .wrapper .uniform-categories-container {
+    height: 90%;
+    /* background-color: #9F2624; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1) {
+    height: 10%;
+    /* background-color: lightcoral; */
+    color: #0084D6;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container {
+    height: 90%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card {
+    height: 100%;
+    width: 24%;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .image {
+    height: 77%;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .image img {
+    height: 77%;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text {
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p {
+    font-size: 20px;
+}
+
+
+/* CAROSEL SECTION */
+
+.carosle {
+    height: 600px;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.carosle .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carosle .wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* SHOE SECTION */
+
+.shoe {
+    height: 700px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.shoe .wrapper {
+    height: 100%;
+}
+
+.shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1) {
+    height: 10%;
+    /* background-color: yellow; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe .wrapper .shoe-container {
+    height: 90%;
+    /* background-color: #9F2624; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1) {
+    height: 10%;
+    /* background-color: lightcoral; */
+    color: #0084D6;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container {
+    height: 90%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card {
+    height: 100%;
+    width: 24%;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card .image {
+    height: 77%;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card .image img {
+    /* height: 70%; */
+    width: 100%;
+    /* background-color: #EFEFEF; */
+    border-radius: 20px;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text {
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p {
+    font-size: 20px;
+}
+
+
+/* ACCESSORIES SECTION */
+
+.accessories {
+    height: 600px;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.accessories .wrapper {
+    height: 100%;
+}
+
+.accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+    height: 10%;
+    /* background-color: yellow; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accessories .wrapper .accessories-container {
+    height: 90%;
+    /* background-color: #9F2624; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+    height: 10%;
+    /* background-color: lightcoral; */
+    color: #0084D6;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.accessories .wrapper .accessories-container .accessories-card-container {
+    height: 90%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.accessories .wrapper .accessories-container .accessories-card-container .accessories-card {
+    height: 100%;
+    width: 24%;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.accessories .wrapper .accessories-container .accessories-card-container .accessories-card .image{
+    height: 77%;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accessories .wrapper .accessories-container .accessories-card-container .accessories-card .image img {
+    width: 100%;
+    /* background-color: #EFEFEF; */
+    border-radius: 20px;
+}
+
+.accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text {
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width:1400px){
+    .shoe {
+        height: 500px;
+    }
+
+    .carosle {
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:1330px){
+    .banner .wrapper h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    /* .button a {
+        font-size: var(--fs14);
+    } */
+
+    .banner {
+        height: 600px;
+    }
+
+    .banner .wrapper {
+        width: 50%;
+
+    }
+
+    .shop-by-categories {
+        height: 500px;
+    }
+
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
+    .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
+    .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+        font-size: 20px;
+    }
+
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
+    .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
+    .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1){
+        font-size: 16px;
+    }
+    
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+        width: 32%;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+        font-size: 18px;
+    }
+
+    .uniform-categories {
+        height: 400px;
+    }
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1,
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p,
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+        font-size: 18px;
+    }
+
+    /* .carosle {
+        padding-top: 30px;
+    } */
+}
+
+@media only screen and (max-width:1150px){
+    /* .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1) {
+        font-size: 22px;
+    } */
+
+    .shoe {
+        height: auto;
+    }
+
+    .accessories {
+        height: 400px;
+    }
+
+    .accessories .wrapper {
+        padding-top: 30px;
+    }
+
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .image img {
+        width: 90%;
+        height: 90%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    /* .carosle {
+        height: 500px;
+    } */
+}
+
+@media only screen and (max-width:800px){
+    .uniform-categories {
+        height: auto;
+    }
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* row-gap: 20px; */
+    }
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card{
+        height: auto;
+        width: 48%;
+    }
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .image img {
+        height: 90%;
+        width: 90%;
+        object-fit: contain;
+        /* background-color: #EFEFEF; */
+        /* border-radius: 20px; */
+    }
+
+    .shoe .wrapper .shoe-container .shoe-card-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* row-gap: 20px; */
+    }
+
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card {
+        width: 48%;
+        height: auto;
+    }
+
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .image img{
+        height: 90%;
+        width: 90%;
+        object-fit: contain;
+    }
+
+    .accessories {
+        height: auto;
+    }
+    
+    .accessories .wrapper .accessories-container .accessories-card-container{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* row-gap: 20px; */
+    }
+    
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card{
+        width: 48%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:850px){
+    /* .button {
+        padding: 4px 10px;
+    } */
+
+    .banner {
+        height: 450px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: 34px;
+    }
+
+    .shop-by-categories {
+        height: 400px;
+    }
+
+    /* .carosle {
+        height: 450px;
+    } */
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1,
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p,
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .banner {
+        height: 400px;
+    }
+
+    /* .carosle {
+        height: 400px;
+    } */
+}
+
+@media only screen and (max-width:650px){
+    .banner {
+        height: 300px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: 28px;
+    }
+
+    .shop-by-categories {
+        height: 300px;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+        font-size: 16px;
+    }
+
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
+    .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
+    .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+        font-size: 18px;
+    }
+
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
+    .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
+    .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+        font-size: 14px;
+    }
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1,
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p,
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .banner {
+        height: 250px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: 20px;
+    }
+    
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1), .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+        font-size: 16px;
+    }
+
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1), .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+        font-size: 12px;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+        font-size: 14px;
+    }
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+        font-size: 12px;
+    }
+
+    .shop-by-categories {
+        height: auto;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container {
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .banner .wrapper h1 {
+        font-size: 16px;
+    }
+}
+
