@@ -106,6 +106,7 @@ nav .wrapper .icon {
 
 nav .wrapper .icon i {
     font-size: 25px;
+    color: #202020;
 }
 
 
@@ -250,6 +251,9 @@ nav .wrapper .icon i {
 .footer .wrapper .part-two {
     height: 40%;
     /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .footer .wrapper .part-two .address {
@@ -276,13 +280,20 @@ nav .wrapper .icon i {
     height: 50%;
     /* background-color: lightpink; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+
 
 .footer .wrapper .part-two .copyright .copyright-h1 {
     color: var(--color-white);
     font-size: var(--fs18);
+}
+
+.footer .wrapper .part-two .copyright .copyright-h1 a{
+    text-decoration: none;
+    color: var(--color-white);
 }
 
 
@@ -570,6 +581,10 @@ nav .wrapper .icon i {
     .footer .wrapper .part-one .content {
         justify-content: space-between;
         gap: 0px;
+    }
+
+    .footer .wrapper .part-two .copyright {
+        flex-direction: column ;
     }
 }
 
