@@ -178,6 +178,10 @@
     box-shadow: -10px -10px 20px rgb(255 255 255), 10px 10px 20px rgb(0 0 0 / 25%);
 }
 
+.count .wrapper .cards:hover{
+    box-shadow: inset -10px -10px 20px rgb(255 255 255), inset 10px 10px 20px rgb(0 0 0 / 25%);
+}
+
 .count .wrapper .cards img {
     height: 150px;
 }
@@ -253,6 +257,10 @@
     border-width: 2px;
     border-style: solid; */
     box-shadow: -10px -10px 20px rgb(255 255 255), 10px 10px 20px rgb(0 0 0 / 25%);
+}
+
+.faq .wrapper .content .faq-box:hover{
+    box-shadow: inset -10px -10px 20px rgb(255 255 255), inset 10px 10px 20px rgb(0 0 0 / 25%);
 }
 
 
