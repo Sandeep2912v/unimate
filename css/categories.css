@@ -1,7 +1,7 @@
 /* Banner Section */
 
 .banner {
-    height: 700px;
+    height: 90vh;
     width: 100%;
     background-color: #9F2624;
     background-image: url(../images/categories/categories-banner1.jpg);
@@ -45,7 +45,7 @@
     /* gap: 5%; */
 }
 
-.shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1, .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1) {
+.shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1, .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1) {
     height: 10%;
     /* background-color: yellow;  */
     text-align: center;
@@ -59,7 +59,7 @@
     /* background-color: lightcoral;  */
 }
 
-.shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1) {
+.shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container  .text h1) {
     height: 10%;
     text-align: right;
     font-size: 18px;
@@ -83,8 +83,9 @@
     /* background-color: lightgray; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    gap: 10px;
 
 }
 
@@ -101,7 +102,16 @@
     object-position: top;
 }
 
-.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1 {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
@@ -184,7 +194,8 @@
 }
 
 .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text {
-    height: 23%;
+    height: 18%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,6 +240,7 @@
 .shoe {
     height: 700px;
     width: 100%;
+    padding-bottom: 30px;
     /* background-color: lightseagreen; */
 }
 
@@ -299,7 +311,7 @@
 }
 
 .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text {
-    height: 23%;
+    height: 18%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,13 +397,16 @@
 }
 
 .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .image img {
+    height: 100%;
     width: 100%;
     /* background-color: #EFEFEF; */
     border-radius: 20px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text {
-    height: 23%;
+    height: 18%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -443,14 +458,14 @@
         height: 500px;
     }
 
-    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1),
     .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
     .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
     .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
         font-size: 20px;
     }
 
-    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1),
     .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
     .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
     .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1){
@@ -461,7 +476,7 @@
         width: 32%;
     }
 
-    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1 {
         font-size: 18px;
     }
 
@@ -510,6 +525,38 @@
     /* .carosle {
         height: 500px;
     } */
+}
+
+
+@media only screen and (max-width:850px){
+    /* .button {
+        padding: 4px 10px;
+    } */
+
+    .banner {
+        height: 450px;
+    }
+
+    .banner .wrapper h1 {
+        font-size: 34px;
+    }
+
+    .shop-by-categories {
+        height: 400px;
+    }
+
+    /* .carosle {
+        height: 450px;
+    } */
+
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1,
+    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1,
+    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p,
+    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width:800px){
@@ -568,36 +615,6 @@
     }
 }
 
-@media only screen and (max-width:850px){
-    /* .button {
-        padding: 4px 10px;
-    } */
-
-    .banner {
-        height: 450px;
-    }
-
-    .banner .wrapper h1 {
-        font-size: 34px;
-    }
-
-    .shop-by-categories {
-        height: 400px;
-    }
-
-    /* .carosle {
-        height: 450px;
-    } */
-
-    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1,
-    .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text p,
-    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1,
-    .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text p,
-    .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1 {
-        font-size: 16px;
-    }
-
-}
 
 @media only screen and (max-width:768px){
     .banner {
@@ -622,18 +639,18 @@
         height: 300px;
     }
 
-    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1 {
         font-size: 16px;
     }
 
-    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1),
     .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
     .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
     .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
         font-size: 18px;
     }
 
-    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1),
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1),
     .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1),
     .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1),
     .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
@@ -657,15 +674,15 @@
         font-size: 20px;
     }
     
-    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1), .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+    .shop-by-categories .wrapper h1:not(.shop-by-categories .wrapper .categories-container h1,.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1), .uniform-categories .wrapper h1:not(.uniform-categories .wrapper .uniform-categories-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper h1:not(.shoe .wrapper .shoe-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper h1:not(.accessories .wrapper .accessories-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
         font-size: 16px;
     }
 
-    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1), .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
+    .shop-by-categories .wrapper .categories-container h1:not(.shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1), .uniform-categories .wrapper .uniform-categories-container h1:not(.uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container h1, .uniform-categories .wrapper .uniform-categories-container .uniform-categories-card-container .uniform-categories-card .text h1), .shoe .wrapper .shoe-container h1:not(.shoe .wrapper .shoe-container .shoe-card-container h1, .shoe .wrapper .shoe-container .shoe-card-container .shoe-card .text h1), .accessories .wrapper .accessories-container h1:not(.accessories .wrapper .accessories-container .accessories-card-container h1, .accessories .wrapper .accessories-container .accessories-card-container .accessories-card .text h1) {
         font-size: 12px;
     }
 
-    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card h1 {
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card .text h1 {
         font-size: 14px;
     }
 
@@ -679,10 +696,11 @@
 
     .shop-by-categories .wrapper .categories-container .categories-card-container {
         flex-wrap: wrap;
-        row-gap: 25px;
+        row-gap: 10px;
     }
 
     .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+        height: 300px;
         width: 100%;
     }
 }
@@ -691,11 +709,19 @@
     .banner {
         height: 200px;
     }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width:375px){
     .banner .wrapper h1 {
         font-size: 16px;
+    }
+
+    .shop-by-categories .wrapper .categories-container .categories-card-container .categories-card {
+        height: 220px;
     }
 }
 

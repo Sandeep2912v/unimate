@@ -171,10 +171,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: #003657;
+    /* border: #003657;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     border-radius: 20px;
+    box-shadow: -10px -10px 20px rgb(255 255 255), 10px 10px 20px rgb(0 0 0 / 25%);
 }
 
 .count .wrapper .cards img {
@@ -248,9 +249,10 @@
     gap: 20px;
     padding: 20px;
     border-radius: 10px;
-    border: #003657;
+    /* border: #003657;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
+    box-shadow: -10px -10px 20px rgb(255 255 255), 10px 10px 20px rgb(0 0 0 / 25%);
 }
 
 
@@ -491,7 +493,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-color: #ffffffe1;
+        background-color: #ffffffc7;
         background-blend-mode: overlay;
     }
     

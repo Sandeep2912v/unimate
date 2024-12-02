@@ -4,7 +4,7 @@
     /* background-color: yellowgreen; */
     background-image: url(../images/index/home-banner.jpg);
     background-size: cover;
-    height: 800px;
+    height: 90vh;
     width: 100%;
 }
 
@@ -23,8 +23,9 @@
 
 
 .banner .wrapper h1 {
-    font-size: 75px;
+    font-size: 58px;
     color: #003657;
+    line-height: 100%;
 }
 
 /* .banner .wrapper button {
@@ -55,7 +56,7 @@
     background-position: bottom;
     height: auto;
     width: 100%;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .service .wrapper {
@@ -421,7 +422,7 @@
 @media only screen and (max-width:1220px) {
 
     .banner .wrapper h1 {
-        font-size: var(--fs60);
+        font-size: var(--fs50);
     }
 }
 
@@ -851,6 +852,11 @@
 
     .work .wrapper .work-step-container .step p {
         font-size: var(--fs10);
+    }
+
+    .vir-fit{
+        background-color: #ffffffad;
+        background-blend-mode: overlay;
     }
 
     .vir-fit .wrapper {

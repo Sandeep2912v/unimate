@@ -88,10 +88,11 @@ nav .wrapper ul li {
 nav .wrapper ul li a {
     text-decoration: none;
     color: black;
+    transition-duration: 0.3s;
 }
 
 nav .wrapper ul li a.active {
-    color: #003657;
+    color: #0084D6;
 }
 
 nav .wrapper ul li a:hover:not(.active) {
@@ -121,12 +122,29 @@ nav .wrapper .icon i {
     background-color: var(--color-blue);
     border: none;
     padding: 10px 20px;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    border:2px solid transparent;
 }
 
 .button a {
     font-size: var(--fs20);
     color: var(--color-white);
     text-decoration: none;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+
+.button:hover{
+    background-color: white;
+    border:2px solid #0084D6;
+    /* border-style: solid;
+    border-width: 2px; */
+}
+
+.button:hover a{
+    color: #0084D6;
+    /* font-weight:600; */
 }
 
 
@@ -149,10 +167,11 @@ nav .wrapper .icon i {
 
 .footer .wrapper .part-one {
     height: 60%;
+    width: 100%;
     /* background-color: lightcyan; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 
 .footer .wrapper .part-one .os {
@@ -250,6 +269,7 @@ nav .wrapper .icon i {
 
 .footer .wrapper .part-two {
     height: 40%;
+    width: 100%;
     /* background-color: lightsalmon; */
     display: flex;
     flex-direction: column;
@@ -258,12 +278,30 @@ nav .wrapper .icon i {
 
 .footer .wrapper .part-two .address {
     height: 50%;
+    width: 100%;
     /* background-color: lightgreen; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     /* gap: 250px; */
 }
+
+.footer .wrapper .part-two .address .address-h1:nth-child(1){
+    width: 50%;
+    order: 2;
+}
+.footer .wrapper .part-two .address .address-h1:nth-child(2){
+    width: 100%;
+    order: 1;
+    text-align: center;
+}
+.footer .wrapper .part-two .address .address-h1:nth-child(3){
+    width: 50%;
+    order: 3;
+    text-align: right;
+}
+
 
 .footer .wrapper .part-two .address .address-h1 {
     color: var(--color-white);
@@ -275,6 +313,7 @@ nav .wrapper .icon i {
     text-decoration: none;
     color: var(--color-white);
 }
+
 
 .footer .wrapper .part-two .copyright {
     height: 50%;
@@ -410,7 +449,7 @@ nav .wrapper .icon i {
     nav .wrapper ul {
         /* width: 100%; */
         position: absolute;
-        top: 100%;
+        top: 0%;
         left: -100%;
         /* right: -100px; */
         transition-duration: 0.3s;
@@ -457,22 +496,23 @@ nav .wrapper .icon i {
     }
 
     .footer .wrapper .part-one {
-        flex-direction: column;
-        gap: 20px;
+        row-gap: 10px;
+        flex-wrap: wrap;
     }
 
     .footer .wrapper .part-one .content {
+        width: 100%;
         order: 1;
     }
 
     .footer .wrapper .part-one .follow {
-        width: 100%;
+        width: 50%;
         align-items: center;
         order: 2;
     }
 
     .footer .wrapper .part-one .os {
-        width: 100%;
+        width: 50%;
         align-items: center;
         order: 3;
     }
@@ -540,6 +580,18 @@ nav .wrapper .icon i {
         font-size: var(--fs12);
     }
 
+    .footer .wrapper .part-two .address .address-h1:nth-child(1){
+        width: 100%;
+        text-align: center;
+    }
+    .footer .wrapper .part-two .address .address-h1:nth-child(2){
+        width: 100%;
+    }
+    .footer .wrapper .part-two .address .address-h1:nth-child(3){
+        width: 100%;
+        text-align: center;
+    }
+
     .footer .wrapper .part-one .follow .icon-follow {
         gap: 10px;
     }
@@ -554,7 +606,7 @@ nav .wrapper .icon i {
     .footer .wrapper .part-two .address {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
 }
 
